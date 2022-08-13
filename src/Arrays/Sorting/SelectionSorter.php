@@ -9,7 +9,7 @@ class SelectionSorter extends Sorter
     use Swapable;
 
     /**
-     * Sorting with the Bubble Method.
+     * Sorting with the Selection Method.
      *
      * @param array $array
      * @return array
