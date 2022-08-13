@@ -1,6 +1,6 @@
 {
-    "name": "vladchekunov/algs",
-    "description": "Implementation of popular algorithms.",
+    "name": "vladchekunov/regular-algorithms",
+    "description": "Implementation of popular algorithms for popular data structures.",
     "type": "library",
     "require-dev": {
         "phpunit/phpunit": "^9.5"

@@ -1,7 +1,9 @@
 <?php
 
+namespace Tests\Arrays;
+
 use \PHPUnit\Framework\TestCase;
-use Vladchekunov\Algs\Sorting\BubbleSorter;
+use Vladchekunov\Algs\Arrays\Sorting\BubbleSorter;
 
 class BubbleSorterTest extends TestCase
 {

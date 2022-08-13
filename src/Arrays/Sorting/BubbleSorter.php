@@ -1,9 +1,13 @@
 <?php
 
-namespace Vladchekunov\Algs\Sorting;
+namespace Vladchekunov\Algs\Arrays\Sorting;
+
+use Vladchekunov\Algs\Traits\Swapable;
 
 class BubbleSorter extends Sorter
 {
+    use Swapable;
+
     /**
      * Sorting with the Bubble Method.
      *
@@ -24,19 +28,5 @@ class BubbleSorter extends Sorter
         }
 
         return $array;
-    }
-
-    /**
-     * Swap two elements of array.
-     *
-     * @param $firstItem
-     * @param $secondItem
-     */
-    protected function swap(&$firstItem, &$secondItem)
-    {
-        $bufferItem = $firstItem;
-
-        $firstItem = $secondItem;
-        $secondItem = $bufferItem;
     }
 }
